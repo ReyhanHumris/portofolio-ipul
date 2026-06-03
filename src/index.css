@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #050505;
+  --color-dark-surface: #0F0F0F;
+  --color-dark-card: #161616;
+  --color-primary-white: #FFFFFF;
+  --color-muted-gray: #8E8E93;
+  --color-border-dark: rgba(255, 255, 255, 0.07);
+  --color-highlight-white: rgba(255, 255, 255, 0.15);
+  
+  --font-sans: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Space Mono', 'JetBrains Mono', monospace;
+  
+  --animate-marquee: marquee 30s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 30s linear infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+  @keyframes marquee-reverse {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0%); }
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 4px;
+  border: 2px solid #050505;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505;
+  color: #E5E5EA;
+  font-family: 'Outfit', 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Grid Background Pattern */
+.grid-background {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: center top;
+}
+
+/* Radial Vignette Mask */
+.vignette-overlay {
+  background: radial-gradient(circle at center, transparent 10%, #050505 85%);
+  pointer-events: none;
+}
+
+/* Glassmorphism Navigation */
+.glass-nav {
+  background: rgba(5, 5, 5, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Minimalist Noir Card Styles */
+.noir-card {
+  background: rgba(15, 15, 15, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.noir-card-hover:hover {
+  background: rgba(22, 22, 22, 0.9);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.03);
+}
+
+/* Text glow effects (Subtle silver/white glow) */
+.glow-text-white {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
+}
+
+/* Custom Hide Scrollbar for tool marquee */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Reveal Clip Animation wrapper */
+.reveal-text-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Selection */
+::selection {
+  background-color: #FFFFFF;
+  color: #050505;
+}

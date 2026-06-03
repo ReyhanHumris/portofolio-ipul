@@ -1,0 +1,98 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Elysian Escape - Iklan Resort Mewah",
+    category: "Komersial",
+    role: "Editor & Colorist",
+    software: ["Premiere Pro", "DaVinci Resolve", "After Effects"],
+    duration: "01:30",
+    client: "Elysian Resorts",
+    videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0227e339f37a944cbd0b0efb299e817&profile_id=139&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1540553016722-983e48a2cd10?auto=format&fit=crop&w=800&q=80",
+    description: "Iklan komersial yang berfokus pada pacing yang halus, nada warna yang mewah, dan desain suara yang menangkap esensi liburan premium. Dibuat dengan color grading sinematik kustom bernuansa emas dan biru gelap."
+  },
+  {
+    id: 2,
+    title: "Echoes of Alor - Dokumenter Budaya",
+    category: "Sinematik & Dokumenter",
+    role: "Sutradara & Editor Utama",
+    software: ["DaVinci Resolve", "Premiere Pro"],
+    duration: "06:45",
+    client: "Film Independen",
+    videoUrl: "https://player.vimeo.com/external/538902047.sd.mp4?s=91c784eb8264e1011680d941e7d3dc71bf8d82f3&profile_id=165&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=800&q=80",
+    description: "Perjalanan mendalam yang memotret tradisi musik asli dan hubungan erat masyarakat Alor dengan samudra. Menggunakan desain suara yang dinamis, narasi suara, dan potongan gerak lambat untuk menyampaikan kisah budaya yang kuat."
+  },
+  {
+    id: 3,
+    title: "Gravity Zero - Reels Bersepeda Gunung",
+    category: "Media Sosial & Shorts",
+    role: "Editor & Artis VFX",
+    software: ["After Effects", "Premiere Pro"],
+    duration: "00:30",
+    client: "Apex Athletics",
+    videoUrl: "https://player.vimeo.com/external/435674703.sd.mp4?s=7fdf21de0a87679bcf7a7cf2be4722c83d6a695b&profile_id=165&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?auto=format&fit=crop&w=800&q=80",
+    description: "Potongan video aksi berenergi tinggi dan bertempo cepat untuk media sosial. Menghadirkan efek guncangan layar, modifikasi kecepatan (speed ramps) kustom, dan efek visual neon yang selaras dengan irama musik elektronik yang kuat."
+  },
+  {
+    id: 4,
+    title: "Brewed Perfection - Pembuatan Kopi Seni",
+    category: "Komersial",
+    role: "Colorist & Editor",
+    software: ["DaVinci Resolve", "Premiere Pro"],
+    duration: "00:45",
+    client: "Origami Café",
+    videoUrl: "https://player.vimeo.com/external/459389137.sd.mp4?s=8948eb3fb5d6d84a7e0ed0b5abdf7e8f8150495f&profile_id=165&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=800&q=80",
+    description: "Iklan komersial dengan sinematografi makro. Desain suara berfokus pada elemen audio yang jernih—proses penggilingan biji kopi, penuangan air panas—dipadukan dengan warna hangat bersahaja yang memberikan kesan premium."
+  },
+  {
+    id: 5,
+    title: "Rhythm of the Reef - Penjelajahan Pesisir",
+    category: "Sinematik & Dokumenter",
+    role: "Videografer & Editor",
+    software: ["Premiere Pro", "DaVinci Resolve"],
+    duration: "04:12",
+    client: "Ekowisata Alor",
+    videoUrl: "https://player.vimeo.com/external/517627448.sd.mp4?s=25413158e0a13346c100e470870956b6059d0473&profile_id=165&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    description: "Eksplorasi visual cagar alam laut yang asri di Alor, Indonesia. Penataan warna disesuaikan untuk kejernihan di bawah air, menampilkan warna merah terumbu karang yang hidup dan biru laut yang mendalam."
+  },
+  {
+    id: 6,
+    title: "Neon Streets - Lanskap Malam Tokyo (Shorts)",
+    category: "Media Sosial & Shorts",
+    role: "Editor & Penata Suara",
+    software: ["Premiere Pro", "After Effects"],
+    duration: "00:15",
+    client: "Proyek Pribadi",
+    videoUrl: "https://player.vimeo.com/external/384761655.sd.mp4?s=3828ef050db4d0f507b99d554a938c5f5904be7a&profile_id=165&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80",
+    description: "Konten vertikal estetis yang menampilkan jalanan bercahaya neon di Tokyo. Menggunakan teknik match cuts, transisi zoom dinamis, dan suara lingkungan kota untuk menangkap energi kehidupan malam."
+  },
+  {
+    id: 7,
+    title: "Chasing Horizons - Travel Film Sinematik",
+    category: "Sinematik & Dokumenter",
+    role: "Sutradara & Editor",
+    software: ["Premiere Pro", "DaVinci Resolve", "After Effects"],
+    duration: "03:00",
+    client: "Global Wanderer",
+    videoUrl: "https://player.vimeo.com/external/403736894.sd.mp4?s=d00e572074e0d3c01c0cfad0da3ecf6d90f23f6c&profile_id=165&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80",
+    description: "Film perjalanan yang menggabungkan rekaman drone udara dengan detail pemandangan terpencil. Dibuat berdasarkan prinsip ritme DKV: bobot visual menentukan durasi transisi."
+  },
+  {
+    id: 8,
+    title: "Cyber City - Promo Pakaian Streetwear",
+    category: "Komersial",
+    role: "Editor Utama & Desainer Gerak",
+    software: ["After Effects", "Premiere Pro", "Illustrator"],
+    duration: "01:00",
+    client: "Voxel Apparel",
+    videoUrl: "https://player.vimeo.com/external/435674703.sd.mp4?s=7fdf21de0a87679bcf7a7cf2be4722c83d6a695b&profile_id=165&oauth2_token_id=57447761",
+    thumbnail: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    description: "Iklan fashion bertempo cepat yang memanfaatkan seni glitch, pembagian layar (split screen), dan animasi tipografi. Terinspirasi oleh grafis cyberpunk yang dipadukan dengan sinematografi perkotaan yang berani."
+  }
+];
