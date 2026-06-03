@@ -139,6 +139,7 @@ export default function App() {
             <a href="#contact" className="gsap-nav-item px-5 py-2 border border-white/30 rounded-full hover:bg-white hover:text-black hover:border-white text-white transition-all duration-300">
               MULAI PROYEK
             </a>
+            <meta name="google-site-verification" content="DrqBetP1C9j-6WAY9xOzhvelRg2Fcv1EbDtUVFpWtjU" />
           </div>
 
           {/* Toggle Nav Seluler */}
