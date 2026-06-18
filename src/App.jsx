@@ -492,7 +492,7 @@ export default function App() {
               
               <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-[#161616]/40 p-3 shadow-2xl">
                 <img 
-                  src="public/portof.jpeg" 
+                  src="/portof.jpeg" 
                   alt="Siluet Videografer"
                   className="rounded-xl w-full h-[450px] object-cover filter grayscale contrast-135 brightness-90 transition-all duration-700"
                 />
