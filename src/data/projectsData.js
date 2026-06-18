@@ -1,5 +1,17 @@
 export const projects = [
   {
+    id: 0,
+    title: "Amel Rama - Wedding Film",
+    category: "Pernikahan",
+    role: "Editor",
+    software: ["Premiere Pro", "DaVinci Resolve"],
+    duration: "00:46",
+    client: "Amel Rama",
+    videoUrl: "/teaser_utama.mp4",
+    thumbnail: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+    description: "Momen bahagia saat akad nikah yang dirancang dengan pacing sinematik, color grading hangat yang elegan, dan transisi yang halus untuk menangkap emosi mendalam dari hari istimewa."
+  },
+  {
     id: 1,
     title: "Elysian Escape - Iklan Resort Mewah",
     category: "Komersial",

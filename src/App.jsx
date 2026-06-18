@@ -281,7 +281,7 @@ export default function App() {
             {/* Overlay Cover */}
             <div className="absolute inset-0 bg-black/55 z-10 flex flex-col items-center justify-center group-hover:bg-black/35 transition-all duration-500">
               <button 
-                onClick={() => setActiveProject(projects[1])} // Memuat dokumenter budaya sebagai karya utama
+                onClick={() => setActiveProject(projects[0])} // Memuat wedding film sebagai karya utama
                 className="p-6 md:p-8 rounded-full bg-white/5 border border-white/40 text-white hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 shadow-xl shadow-white/5 cursor-pointer z-20"
               >
                 <Play className="h-8 w-8 md:h-10 md:w-10 fill-current" />
@@ -295,7 +295,7 @@ export default function App() {
               muted 
               playsInline
               className="w-full h-full object-cover filter grayscale contrast-125 group-hover:scale-102 transition-transform duration-700"
-              src="https://player.vimeo.com/external/538902047.sd.mp4?s=91c784eb8264e1011680d941e7d3dc71bf8d82f3&profile_id=165&oauth2_token_id=57447761"
+              src="/teaser_utama.mp4"
             />
           </div>
         </div>
